@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos globales */
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.logo p{
+
+    border: 1px solid #7a7a7a;
+    width: 90px;
+    height: 40px;
+
+    text-align: center;
+    padding: 5px;
+}
+
+nav{
+    /* background-color: antiquewhite; */
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 15px;
+    color: #7a7a7a;
+}
+
+.active{
+    color: #444444;
+}
+
+
+/* ---MAIN--- */
+
+.subheader{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button, .btn-suscribe{
+    width: 100px;
+    height: 35px;
+    background-color: #444444;
+    color: #E6E8E6;
+    padding: 5px 10px;
+    border-radius: 21px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+
+    font-weight: 600;
+}
+
+hr{
+    border: 1px solid #d6d6d6;
+    
+}
+
+h1, h2{
+    color: #444444;
+}
+
+p, label{
+    color: #7a7a7a;
+}
+
+label{
+    border-bottom: 1px solid #444444;
+}
+
+
+/* main .cards .text-card{
+    width: 70%;
+} */
+
+.img-main{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+
+    border: 1px solid #aaaaaa;
+
+}
+
+.text-main{
+    width: 70%;
+    display: inline-block;
+}
+
+
+
+/* ---SECTION--- */
+
+.title{
+    color: #444444;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cards{
+    /* background-color: rgba(221, 30, 30, 0.56); */
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.text-card{
+    /* background-color: antiquewhite; */
+    margin: 10px;
+    display: inline-block;
+}
+
+.img-card{
+    border: 1px solid #aaaaaa;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+}
+
+main, #section-index, form, footer, .cards-destinos, #section-experiencias{
+    margin: 50px 0;
+}
+
+
+/* FOOTER */
+
+.cardFooter{
+    /* para que los div del footer se alineen arriba */
+    vertical-align: top;
+}
+
+.text-footer{
+    display: block;
+}
+
+/* ---- ---- ----- FIN INDEX ----- ----- ---- */
+
+
+
+
+
+.cards-destinos{
+    border: 1px solid #aaaaaa;
+    border-radius: 12px;
+    
+    width: 240px;
+    padding: 28px;
+    margin-right: 40px;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn-destinos{
+
+    width: 130px;
+    background-color: white;
+    color: #444444;
+    border: 1px solid #444444;
+}
+
+
+/* ACERCA DE */
+.img-acerca{
+    width: 200px;
+    height: 150px;
+
+    border-radius: 12px;
+    border: 1px solid #aaaaaa;
+
+}
+
+.cards-acerca{
+    /* background-color: aqua; */
+
+    width: 200px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+
+/* BLOG */
+.img-blog{
+    width: 270px;
+    height: 270px;
+
+    border-radius: 12px;
+    border: 1px solid #aaaaaa;
+
+}
+
+.cards-blog{
+    width: 270px;
+
+}
